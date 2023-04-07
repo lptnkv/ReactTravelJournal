@@ -1,0 +1,25 @@
+.container {
+    width: fit-content;
+    height: 500px;
+    background-color: transparent;
+    border: 1px solid rgb(207, 207, 207);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.title {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.creator_info {
+    font-size: 12px;
+}
+
+.container p {
+    font-size: 12px;
+    padding: 20px 0px;
+}

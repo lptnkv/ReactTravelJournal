@@ -1,5 +1,5 @@
-import react from "react";
 import Card from "./Card";
+import styles from "./Main.module.css"
 
 export default function Main({data}) {
     console.log(data);
@@ -7,5 +7,5 @@ export default function Main({data}) {
     return <Card data={item} />;
   });
   console.log(cards);
-  return <div className="card-list">{cards}</div>;
+  return <div className={styles.list}>{cards}</div>;
 }
